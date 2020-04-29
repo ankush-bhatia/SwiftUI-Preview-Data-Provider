@@ -38,7 +38,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 ___
-### If you do not want to create the data then you can use defualt data from PreviewDataProvider
+### If you do not want to create the data then you can use default data from PreviewDataProvider
 
 ```sh
 struct ContentView_Previews: PreviewProvider {

@@ -44,7 +44,7 @@ ___
 struct ContentView_Previews: PreviewProvider {
 
     static var previews: some View {
-        ForEach(previewData, id: \.id) { data  in
+        ForEach(PreviewDataProvider.data, id: \.id) { data  in
             ContentView()
                 .colorScheme(data.colorScheme)
                 .previewDevice(PreviewDevice(with: data.device))

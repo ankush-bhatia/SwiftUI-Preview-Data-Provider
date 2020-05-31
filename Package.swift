@@ -20,10 +20,10 @@ let package = Package(
         .target(
             name: "PreviewDataProvider",
             dependencies: [],
-            exclude: ["LICENSE"]),
+            exclude: ["SwiftUI-Preview-Data-Provider/PreviewDataProviderExample"]),
         .testTarget(
             name: "PreviewDataProviderTests",
             dependencies: ["PreviewDataProvider"],
-            exclude: ["LICENSE"]),
+            exclude: ["SwiftUI-Preview-Data-Provider/PreviewDataProviderExample"]),
     ]
 )

@@ -17,11 +17,11 @@
 struct ContentView_Previews: PreviewProvider {
 
     static let previewData = [
-        PreviewDataProvider(device: .iPhone_X,
+        PreviewDataProvider(with: .iPhone_X,
                             colorScheme: .light,
                             locale: .current,
                             layoutDirection: .leftToRight),
-        PreviewDataProvider(device: .iPhone_SE,
+        PreviewDataProvider(with: .iPhone_SE,
                             colorScheme: .dark,
                             locale: .current,
                             layoutDirection: .rightToLeft)

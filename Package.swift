@@ -23,6 +23,7 @@ let package = Package(
             exclude: ["PreviewDataProviderExample"]),
         .testTarget(
             name: "PreviewDataProviderTests",
-            dependencies: ["PreviewDataProvider"]),
+            dependencies: ["PreviewDataProvider"],
+            exclude: ["PreviewDataProviderExample"]),
     ]
 )

@@ -11,11 +11,11 @@ import SwiftUI
 
 public struct PreviewDataProvider {
 
-    let device: PreviewDevice.Device
-    let colorScheme: ColorScheme
-    let locale: Locale
-    let layoutDirection: LayoutDirection
-    let id = UUID()
+    public let device: PreviewDevice.Device
+    public let colorScheme: ColorScheme
+    public let locale: Locale
+    public let layoutDirection: LayoutDirection
+    public let id = UUID()
 }
 
 extension PreviewDevice {

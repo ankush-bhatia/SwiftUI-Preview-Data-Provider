@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct PreviewDataProvider {
+public struct PreviewDataProvider {
 
     let device: PreviewDevice.Device
     let colorScheme: ColorScheme
@@ -20,7 +20,7 @@ struct PreviewDataProvider {
 
 extension PreviewDevice {
 
-    enum Device: String {
+    public enum Device: String {
         case mac = "Mac"
         case iPhone_7 = "iPhone 7"
         case iPhone_7_Plus = "iPhone 7 Plus"
@@ -62,7 +62,7 @@ extension PreviewDevice {
 
 extension PreviewDataProvider {
 
-    static var data: [PreviewDataProvider] {
+    public static var data: [PreviewDataProvider] {
         return [
             PreviewDataProvider(device: .iPhone_X,
                                 colorScheme: .dark,

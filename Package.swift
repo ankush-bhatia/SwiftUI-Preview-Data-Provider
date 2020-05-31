@@ -20,9 +20,10 @@ let package = Package(
         .target(
             name: "PreviewDataProvider",
             dependencies: [],
-            exclude: ["PreviewDataProviderExample"]),
+            exclude: ["/PreviewDataProviderExample"]),
         .testTarget(
             name: "PreviewDataProviderTests",
-            dependencies: ["PreviewDataProvider"]),
+            dependencies: ["PreviewDataProvider"],
+            exclude: ["/PreviewDataProviderExample"]),
     ]
 )

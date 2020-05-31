@@ -55,7 +55,7 @@ extension PreviewDevice {
         case apple_watch_series_4_44mm = "Apple Watch Series 4 - 44mm"
     }
 
-    init(with deviceName: Device) {
+    public init(with deviceName: Device) {
         self.init(rawValue: deviceName.rawValue)
     }
 }

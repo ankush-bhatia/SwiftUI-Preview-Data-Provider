@@ -74,11 +74,11 @@ extension PreviewDataProvider {
 
     public static var data: [PreviewDataProvider] {
         return [
-            PreviewDataProvider(device: .iPhone_X,
+            PreviewDataProvider(with: .iPhone_X,
                                 colorScheme: .dark,
                                 locale: .init(identifier: "en"),
                                 layoutDirection: .leftToRight),
-            PreviewDataProvider(device: .iPhone_SE,
+            PreviewDataProvider(with: .iPhone_SE,
                                 colorScheme: .light,
                                 locale: .init(identifier: "ar"),
                                 layoutDirection: .rightToLeft)
